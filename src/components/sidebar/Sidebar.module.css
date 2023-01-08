@@ -1,0 +1,81 @@
+.sidebar {
+   width: 100px;
+   height: 100vh;
+   color: #fff;
+   padding: 45px 0;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   position: relative;
+   transition: width 0.3s;
+}
+
+.sidebar.open {
+   width: 300px;
+}
+
+.sidebar.light {
+   background-color: #fff;
+}
+
+.sidebar.dark {
+   background-color: #232229;;
+}
+
+.sidebar > div:nth-child(1) {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding: 0 35px;
+   height: 29px;
+}
+
+.open .title {
+   opacity: 1;
+   visibility: visible;
+   position: static;
+}
+
+.light .title {
+   color: #000;
+}
+
+.title {
+   font-weight: normal;
+   transition: all 0.15s, color 0s;
+   opacity: 0;
+   visibility: hidden;
+   position: absolute;
+}
+
+.controls {
+
+   display: flex;
+   flex-direction: column;
+   gap: 60px;
+}
+
+.light .controls {
+   color: #333;
+}
+
+.dark .controls {
+   color: #D3D3D3;
+}
+
+.controls > div:hover .control-icon {
+   fill: #fff;
+}
+
+.controls > div:hover .control-icon.point path {
+   stroke: #fff;
+}
+
+.control-icon {
+   width: 30px;
+   flex-shrink: 0;
+}
+
+.control-icon.point {
+   height: 40px;
+}
