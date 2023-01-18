@@ -112,7 +112,7 @@ Users should be able to:
 
 ### Useful resources
 
--  [MDN](https://reactjs.org/) - This helped me by acting as a reference for the react library
+-  [React](https://reactjs.org/) - This helped me by acting as a reference for the react library
 
 ## Author
 
