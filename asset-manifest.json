@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/path-finding-visualizer/static/css/main.b3ce1f31.css",
-    "main.js": "/path-finding-visualizer/static/js/main.e991fb9b.js",
+    "main.css": "/path-finding-visualizer/static/css/main.0f3475d5.css",
+    "main.js": "/path-finding-visualizer/static/js/main.58f3d7c0.js",
     "static/media/light-mode-dark.svg": "/path-finding-visualizer/static/media/light-mode-dark.cdd5c11a68318dafaf5d7b4b2f17528a.svg",
     "static/media/light-mode-light.svg": "/path-finding-visualizer/static/media/light-mode-light.f5549b5833c4a7763fb3c6d67132bef4.svg",
     "static/media/light-mode-white.svg": "/path-finding-visualizer/static/media/light-mode-white.ce61a13d50c7974f3213.svg",
@@ -9,11 +9,11 @@
     "static/media/dark-mode-light.svg": "/path-finding-visualizer/static/media/dark-mode-light.5df63336b67d4cdbefeb9333d14c2c10.svg",
     "static/media/dark-mode-white.svg": "/path-finding-visualizer/static/media/dark-mode-white.8c3891f6dcb63a952fb9.svg",
     "index.html": "/path-finding-visualizer/index.html",
-    "main.b3ce1f31.css.map": "/path-finding-visualizer/static/css/main.b3ce1f31.css.map",
-    "main.e991fb9b.js.map": "/path-finding-visualizer/static/js/main.e991fb9b.js.map"
+    "main.0f3475d5.css.map": "/path-finding-visualizer/static/css/main.0f3475d5.css.map",
+    "main.58f3d7c0.js.map": "/path-finding-visualizer/static/js/main.58f3d7c0.js.map"
   },
   "entrypoints": [
-    "static/css/main.b3ce1f31.css",
-    "static/js/main.e991fb9b.js"
+    "static/css/main.0f3475d5.css",
+    "static/js/main.58f3d7c0.js"
   ]
 }
