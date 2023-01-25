@@ -1,19 +1,20 @@
 {
   "files": {
-    "main.css": "/path-finding-visualizer/static/css/main.dabf3e92.css",
-    "main.js": "/path-finding-visualizer/static/js/main.0de1594c.js",
+    "main.css": "/path-finding-visualizer/static/css/main.ddb882db.css",
+    "main.js": "/path-finding-visualizer/static/js/main.456aafb7.js",
     "static/media/light-mode-dark.svg": "/path-finding-visualizer/static/media/light-mode-dark.cdd5c11a68318dafaf5d7b4b2f17528a.svg",
     "static/media/light-mode-light.svg": "/path-finding-visualizer/static/media/light-mode-light.f5549b5833c4a7763fb3c6d67132bef4.svg",
     "static/media/light-mode-white.svg": "/path-finding-visualizer/static/media/light-mode-white.ce61a13d50c7974f3213.svg",
     "static/media/dark-mode-dark.svg": "/path-finding-visualizer/static/media/dark-mode-dark.d2bb87177aa48a8fa34f524780473a36.svg",
     "static/media/dark-mode-light.svg": "/path-finding-visualizer/static/media/dark-mode-light.f865d4e848200ece6a7237d5b494306b.svg",
     "static/media/dark-mode-white.svg": "/path-finding-visualizer/static/media/dark-mode-white.3ac4c29d2db02efafd45.svg",
+    "static/media/x-icon.svg": "/path-finding-visualizer/static/media/x-icon.e5e8a79ab1350cd0ccd6e68356269960.svg",
     "index.html": "/path-finding-visualizer/index.html",
-    "main.dabf3e92.css.map": "/path-finding-visualizer/static/css/main.dabf3e92.css.map",
-    "main.0de1594c.js.map": "/path-finding-visualizer/static/js/main.0de1594c.js.map"
+    "main.ddb882db.css.map": "/path-finding-visualizer/static/css/main.ddb882db.css.map",
+    "main.456aafb7.js.map": "/path-finding-visualizer/static/js/main.456aafb7.js.map"
   },
   "entrypoints": [
-    "static/css/main.dabf3e92.css",
-    "static/js/main.0de1594c.js"
+    "static/css/main.ddb882db.css",
+    "static/js/main.456aafb7.js"
   ]
 }
