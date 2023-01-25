@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/path-finding-visualizer/static/css/main.ddb882db.css",
-    "main.js": "/path-finding-visualizer/static/js/main.456aafb7.js",
+    "main.js": "/path-finding-visualizer/static/js/main.976d4ce0.js",
     "static/media/light-mode-dark.svg": "/path-finding-visualizer/static/media/light-mode-dark.cdd5c11a68318dafaf5d7b4b2f17528a.svg",
     "static/media/light-mode-light.svg": "/path-finding-visualizer/static/media/light-mode-light.f5549b5833c4a7763fb3c6d67132bef4.svg",
     "static/media/light-mode-white.svg": "/path-finding-visualizer/static/media/light-mode-white.ce61a13d50c7974f3213.svg",
@@ -11,10 +11,10 @@
     "static/media/x-icon.svg": "/path-finding-visualizer/static/media/x-icon.e5e8a79ab1350cd0ccd6e68356269960.svg",
     "index.html": "/path-finding-visualizer/index.html",
     "main.ddb882db.css.map": "/path-finding-visualizer/static/css/main.ddb882db.css.map",
-    "main.456aafb7.js.map": "/path-finding-visualizer/static/js/main.456aafb7.js.map"
+    "main.976d4ce0.js.map": "/path-finding-visualizer/static/js/main.976d4ce0.js.map"
   },
   "entrypoints": [
     "static/css/main.ddb882db.css",
-    "static/js/main.456aafb7.js"
+    "static/js/main.976d4ce0.js"
   ]
 }
