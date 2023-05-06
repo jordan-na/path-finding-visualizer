@@ -1,0 +1,182 @@
+.weight-button {
+   width: 100%;
+   height: 70px;
+   background: none;
+   border: none;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   padding: 0 35px;
+   cursor: pointer;
+   background-position: center;
+   background-size: 30px;
+   background-repeat: no-repeat;
+   position: relative;
+}
+
+.weight {
+   transform: scale(1.35);
+}
+
+.weight-button:hover {
+   background-color: #5869F0;
+}
+
+.weight-button:hover .cross {
+   background-color: #fff;
+}
+
+.weight-button .button-icon {
+   width: 30px;
+}
+
+.weight-toggle {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding: 15px 30px;
+   margin: 0 35px;
+   height: 70px;
+}
+
+.weight-toggle.dark {
+   background-color: #232229;
+}
+
+.weight-toggle.light {
+   background-color: #fff;
+}
+
+.weight-toggle img:nth-of-type(1) {
+   width: 25px;
+}
+
+.weight-toggle img:nth-of-type(2) {
+   width: 20px;
+}
+
+.toggle-switch {
+   border: none;
+   width: 60px;
+   border-radius: 20px;
+   height: 26px;
+   position: relative;
+   cursor: pointer;
+}
+
+.circle {
+   display: block;
+   width: 20px;
+   height: 20px;
+   border-radius: 50%;
+   background-color: #fff;
+   position: absolute;
+   top: 50%;
+   transform: translateY(-50%);
+   transition: 0.15s;
+}
+
+.weight-toggle.no-weights .toggle-switch {
+   background-color: #c3c8ce;
+}
+
+.weight-toggle.no-weights .toggle-switch .circle {
+   right: 100%;
+   transform: translate(calc(100% + 3px), -50%);
+}
+
+.weight-toggle.weights .toggle-switch {
+   background-color: #5869F0;
+}
+
+.weight-toggle.weights .toggle-switch .circle {
+   right: 3px;
+}
+
+.cross {
+   height: 40px;
+   width: 5px;
+   background-color: red;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%) rotate(45deg);
+   z-index: 10;
+}
+
+.light .cross {
+   background-color: #c3c8ce;
+}
+
+.dark .cross {
+   background-color: #6b6b77;
+}
+
+.container .cross {
+   height: 30px;
+}
+
+.container {
+   position: relative;
+}
+
+@media only screen and (max-width: 1750px) {
+   .weight-toggle {
+      padding: 15px 50px;
+   }
+}
+
+@media only screen and (max-width: 1425px) {
+   .weight-toggle {
+      padding: 10px 35px;
+   }
+   .toggle-switch {
+      border: none;
+      width: 60px;
+      border-radius: 18px;
+      height: 24px;
+      position: relative;
+      cursor: pointer;
+   }
+   .circle {
+      display: block;
+      width: 18px;
+      height: 18px;
+      border-radius: 50%;
+      background-color: #fff;
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      transition: 0.15s;
+   }
+}
+
+@media only screen and (max-width: 1300px) {
+   .weight-toggle {
+      height: 50px;
+      padding: 0px 30px;
+   }
+   .toggle-switch {
+      border: none;
+      width: 60px;
+      border-radius: 17px;
+      height: 24px;
+      position: relative;
+      cursor: pointer;
+   }
+   .circle {
+      display: block;
+      width: 17px;
+      height: 17px;
+      border-radius: 50%;
+      background-color: #fff;
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      transition: 0.15s;
+   }
+   .weight-button {
+      height: 50px;
+      padding: 20px 35px;
+   }
+}

@@ -1,0 +1,16 @@
+:root {
+   --grid-width: 50; /* DEFAULT VALUE */
+}
+
+.row {
+   display: grid;
+   grid-template-columns: repeat(var(--grid-width), 1fr);
+}
+
+.dark.border-bottom {
+   border-bottom: 1px #D3D3D3 solid;
+}
+
+.light.border-bottom {
+   border-bottom: 1px #333 solid;
+}

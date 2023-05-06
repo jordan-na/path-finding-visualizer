@@ -1,0 +1,186 @@
+.control-container {
+   display: flex;
+   height: 70px;
+   align-items: center;
+}
+
+.hover-background {
+   width: 0px;
+   transition: 0.22s ease-out;
+   cursor: pointer;
+   background-color: #9bb1ff;
+   height: 100%;
+}
+
+.control-container.open:hover .hover-background {
+   width: 20px;
+}
+
+.control {
+   flex-grow: 1;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding: 20px 35px;
+   cursor: pointer;
+   position: relative;
+   transition: 0.15s;
+   height: 100%;
+}
+
+.control > span {
+   display: flex;
+   align-items: center;
+   gap: 15px;
+}
+
+.open .control > span span {
+   opacity: 1;
+   visibility: visible;
+   position: static;
+}
+
+.control > span span {
+   opacity: 0;
+   visibility: hidden;
+   transition: all 0.15s, color 0s;
+   position: absolute;
+}
+
+.control-container:hover .control {
+   background-color: #5869f0;
+   color: #fff;
+}
+
+.open .control .arrow {
+   visibility: visible;
+   opacity: 1;
+   position: static;
+}
+
+.control .arrow {
+   width: 12px;
+   opacity: 0;
+   visibility: hidden;
+   transition: transform 0.22s ease-out, opacity 0.15s linear, visibility 0.15s linear;
+   position: absolute;
+}
+
+.light .arrow path {
+   stroke: #333;
+}
+
+.dark .arrow path {
+   stroke: #d3d3d3;
+}
+
+.control-container:hover .control .arrow {
+   transform: scale(1.1);
+}
+
+.control-container:hover .control .arrow path {
+   stroke: #fff;
+}
+
+.sub-controls-container {
+   position: absolute;
+   z-index: 100;
+   left: 100%;
+   top: 50%;
+   transform: translateY(-50%) scale(0.92);
+   width: max-content;
+   opacity: 0;
+   visibility: hidden;
+   transition: 0.25s;
+   transform-origin: 0 50%;
+   padding-left: 14px;
+   cursor: default;
+}
+
+.sub-controls {
+   list-style: none;
+   border-radius: 12px;
+   overflow: hidden;
+   cursor: pointer;
+}
+
+.light .sub-controls {
+   background-color: #fff;
+}
+
+.dark .sub-controls {
+   background-color: #232229;
+}
+
+.control-container:hover .sub-controls-container {
+   visibility: visible;
+   opacity: 1;
+   transform: translateY(-50%) scale(1);
+}
+
+.sub-controls li {
+   width: 100%;
+   position: relative;
+}
+
+.sub-controls li button {
+   background: none;
+   border: none;
+   display: block;
+   width: 100%;
+   text-align: left;
+   font-size: 16px;
+   padding: 12px 45px 12px 15px;
+   cursor: pointer;
+   transition: 0.15s;
+}
+
+.light .sub-controls li button {
+   color: #333;
+}
+
+.dark .sub-controls li button {
+   color: #d3d3d3;
+}
+
+.sub-controls li button:not(.disable):hover {
+   background-color: #5869f0;
+   color: #fff !important;
+}
+
+.sub-controls li button.disable {
+   cursor: not-allowed;
+}
+
+.light .sub-controls li button.selected {
+   color: #000;
+}
+
+.dark .sub-controls li button.selected {
+   color: #fff;
+}
+
+.sub-controls li button.selected::after {
+   content: "";
+   display: block;
+   position: absolute;
+   right: 16px;
+   top: 50%;
+   transform: translateY(-50%);
+   height: 15px;
+   width: 15px;
+   background-color: #9bb1ff;
+   border-radius: 50%;
+}
+
+@media only screen and (max-width: 1300px) {
+   .control-container {
+      height: 50px;
+   }
+   .sub-controls li button {
+      padding: 9px 45px 9px 15px;
+   }
+   .control-container.open:hover .hover-background {
+      width: 10px;
+   }
+}
